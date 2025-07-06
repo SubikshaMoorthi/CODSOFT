@@ -17,7 +17,6 @@ public class Atm
 
             System.out.print("Enter your choice: ");
             int choice = sc.nextInt();
-
             switch (choice) {
                 case 1:
                     System.out.print("Enter amount to withdraw: ");
@@ -32,7 +31,7 @@ public class Atm
                         System.out.println("Withdrawal failed. Check amount and balance!");
                     }
 
-                    System.out.println("Balance: ₹" + b.getBalance());
+                    System.out.println("Balance: Rs." + b.getBalance());
                     break;
 
                 case 2:
@@ -48,11 +47,11 @@ public class Atm
                         System.out.println("Deposit failed. Enter a valid amount!");
                     }
 
-                    System.out.println("Balance: ₹" + b.getBalance());
+                    System.out.println("Balance: Rs." + b.getBalance());
                     break;
 
                 case 3:
-                    System.out.println("Current Balance: ₹" + b.getBalance());
+                    System.out.println("Current Balance: Rs." + b.getBalance());
                     break;
 
                 case 4:
