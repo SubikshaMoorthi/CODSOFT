@@ -92,7 +92,7 @@ public class Grade_Calc
         double avg=calcAverage(total,n);
         String res=result(marks);
 
-        System.out.println("\n______FINAL RESULT______");
+        System.out.println("\n_______FINAL RESULT_______");
         System.out.println("Total Marks: "+total);
         System.out.printf("Total Percentage: %.2f\n",avg);
         System.out.println("Result: "+res);
