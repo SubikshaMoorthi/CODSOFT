@@ -17,7 +17,8 @@ public class Atm
 
             System.out.print("Enter your choice: ");
             int choice = sc.nextInt();
-            switch (choice) {
+            switch (choice) 
+            {
                 case 1:
                     System.out.print("Enter amount to withdraw: ");
                     double withdrawAmt = sc.nextDouble();
