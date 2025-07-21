@@ -10,7 +10,7 @@ public class number
         int maxT = 5, score = 0;
         boolean again = true;
 
-        System.out.println("-----------Number Game--------- \nGuess between 1 and 100");
+        System.out.println("---------Number Game--------- \nGuess between 1 and 100");
         System.out.println("You have " + maxT + " attempts each round.\n");
 
         while (again) 
