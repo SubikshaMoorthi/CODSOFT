@@ -1,6 +1,22 @@
 # CODSOFT
 Projects and tasks completed for CodSoft Internship
 
+Task 1 # Number Game
+----------------------
+
+This is a basic Java console project that simulates a Number Guessing Game.
+
+# Features
+- Generates a random number between 1 and 100
+- Allows 5 attempts to guess the correct number
+- Provides feedback: "Too High" or "Too Low"
+- Displays the correct answer if all attempts are used
+- Tracks the total score across rounds
+- Option to play again
+- Prevents invalid input (non-integer values)
+
+# Technologies Used
+- Java
 
 Task 2 # Student Grade Calculator
 ---------------------------------
